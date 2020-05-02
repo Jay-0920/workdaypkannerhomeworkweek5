@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea{
+  background: transparent;
+  width: 100%;
+  min-height: 5rem;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+  color: black;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: goldenrod;
+  color:black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.row {
+  margin-bottom: 1.20rem;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid #292828;;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px solid #000000;
+}
+
+.present {
+  background-color: skyblue;
+}
+
+.future {
+  background-color: #77dd77;
+}
+
+.save-button {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.save-button:hover {
+  background-color: #03576b;
+}
+
+.disabled {
+  color: rgb(0, 0, 0);
+  background-color: grey;
+  border-color: hsl(0, 0%, 4%);
+  cursor: not-allowed;
+  pointer-events: none;
+}
